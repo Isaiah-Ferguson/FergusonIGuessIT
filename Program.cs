@@ -7,7 +7,6 @@ string guess = "";
 int num = 0;
 bool input = true;
 string program = ""; 
-bool trueG = true;
 int trueGuess = 0;
 int trueInt1 = 0;
 int trueInt2 = 0;
@@ -24,6 +23,12 @@ int mediumGuesses = 0;
 int hardGuesses = 0;
 int customguess =0;
 
+while (difficulty != "easy" && difficulty != "medium" && difficulty != "hard" && difficulty != "custom")
+{
+    Console.WriteLine("You did not enter a valid difficulty level.");
+    break;
+}
+
     if (difficulty == "easy")
     {
     Random rndnum = new Random();
@@ -33,11 +38,11 @@ int customguess =0;
         Console.WriteLine("guess the number between 1 and 10!");
         guess = (Console.ReadLine());
 
-        trueG = Int32.TryParse(guess, out trueGuess);
+        bool trueG = Int32.TryParse(guess, out trueGuess);
         easyGuesses ++;
         if (trueGuess == 0)
         {
-                Console.WriteLine("that is not an integer.");
+                Console.WriteLine("ERROR that is not an integer.");
             break;
         }
     Console.WriteLine(trueGuess);
@@ -62,30 +67,32 @@ if (difficulty == "custom")
     Console.WriteLine("Please enter a number:");
     string num1 = (Console.ReadLine());
 
-        trueG = Int32.TryParse(num1, out trueInt1);
+      bool  trueG = Int32.TryParse(num1, out trueInt1);
         
 
 
     Console.WriteLine("Please enter a number that is greater than your 1st number");
     string num2 = (Console.ReadLine());
-trueG = Int32.TryParse(num2, out trueInt2);
+    bool trueG1 = Int32.TryParse(num2, out trueInt2);
 
     num = rndnum.Next(trueInt1,trueInt2);
     while (trueGuess != num)
     {
-        if (trueInt1 == 0 || trueInt2 == 0)
+        if (trueG1 == false ||  trueG == false)
         {
-            Console.WriteLine("that is not an integer.");
+            Console.WriteLine("Error that is not an integer.");
             break;
         }
 
-        Console.WriteLine($"guess the number between {num1} and {num2}!");
+       
+
+        Console.WriteLine($"guess the number between {trueInt1} and {trueInt2}!");
         guess = (Console.ReadLine());
         trueG = Int32.TryParse(guess, out trueGuess);
         
-        if (trueGuess == 0)
+        if (trueG == false)
         {
-            Console.WriteLine("that is not an integer.");
+            Console.WriteLine("ERROR that is not an integer.");
             break;
         }
 customguess ++;
@@ -112,11 +119,11 @@ if (difficulty == "medium")
     {
         Console.WriteLine("guess the number between 1 and 50!");
         guess = (Console.ReadLine());
-        trueG = Int32.TryParse(guess, out trueGuess);
+       bool trueG = Int32.TryParse(guess, out trueGuess);
         
-        if (trueGuess == 0)
+        if (trueG == false)
         {
-            Console.WriteLine("that is not an integer.");
+            Console.WriteLine("ERROR that is not an integer.");
             break;
         }
         mediumGuesses ++;
@@ -144,7 +151,7 @@ if (difficulty == "hard")
     {
         Console.WriteLine("guess the number between 1 and 100!");
         guess = (Console.ReadLine());
-        trueG = Int32.TryParse(guess, out trueGuess);
+       bool trueG = Int32.TryParse(guess, out trueGuess);
         
         if (trueGuess == 0)
         {
