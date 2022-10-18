@@ -1,7 +1,7 @@
 ﻿//ISAIAH KEITH FERGUSON
 //10/17/2022
 //Guess it!!
-
+// Peer Reviewed by:
 string custom = "";
 string guess = "";
 int num = 0;
@@ -41,7 +41,7 @@ while (difficulty != "easy" && difficulty != "medium" && difficulty != "hard" &&
         easyGuesses ++;
         if (trueGuess == 0)
         {
-                Console.WriteLine("ERROR that is not an integer.");
+            Console.WriteLine("ERROR that is not an integer.");
             break;
         }
     Console.WriteLine(trueGuess);
@@ -66,8 +66,6 @@ if (difficulty == "custom")
     Console.WriteLine("Please enter a number:");
     string num1 = (Console.ReadLine());
     bool  trueG = Int32.TryParse(num1, out trueInt1);
-        
-
 
     Console.WriteLine("Please enter a number that is greater than your 1st number");
     string num2 = (Console.ReadLine());
