@@ -1,0 +1,15 @@
+C:\Temp\CodeStacklvl1\Week1\MiniChallengeRedux2\IKFergusonGuessIT\bin\Debug\net6.0\IKFergusonGuessIT.exe
+C:\Temp\CodeStacklvl1\Week1\MiniChallengeRedux2\IKFergusonGuessIT\bin\Debug\net6.0\IKFergusonGuessIT.deps.json
+C:\Temp\CodeStacklvl1\Week1\MiniChallengeRedux2\IKFergusonGuessIT\bin\Debug\net6.0\IKFergusonGuessIT.runtimeconfig.json
+C:\Temp\CodeStacklvl1\Week1\MiniChallengeRedux2\IKFergusonGuessIT\bin\Debug\net6.0\IKFergusonGuessIT.dll
+C:\Temp\CodeStacklvl1\Week1\MiniChallengeRedux2\IKFergusonGuessIT\bin\Debug\net6.0\IKFergusonGuessIT.pdb
+C:\Temp\CodeStacklvl1\Week1\MiniChallengeRedux2\IKFergusonGuessIT\obj\Debug\net6.0\IKFergusonGuessIT.csproj.AssemblyReference.cache
+C:\Temp\CodeStacklvl1\Week1\MiniChallengeRedux2\IKFergusonGuessIT\obj\Debug\net6.0\IKFergusonGuessIT.GeneratedMSBuildEditorConfig.editorconfig
+C:\Temp\CodeStacklvl1\Week1\MiniChallengeRedux2\IKFergusonGuessIT\obj\Debug\net6.0\IKFergusonGuessIT.AssemblyInfoInputs.cache
+C:\Temp\CodeStacklvl1\Week1\MiniChallengeRedux2\IKFergusonGuessIT\obj\Debug\net6.0\IKFergusonGuessIT.AssemblyInfo.cs
+C:\Temp\CodeStacklvl1\Week1\MiniChallengeRedux2\IKFergusonGuessIT\obj\Debug\net6.0\IKFergusonGuessIT.csproj.CoreCompileInputs.cache
+C:\Temp\CodeStacklvl1\Week1\MiniChallengeRedux2\IKFergusonGuessIT\obj\Debug\net6.0\IKFergusonGuessIT.dll
+C:\Temp\CodeStacklvl1\Week1\MiniChallengeRedux2\IKFergusonGuessIT\obj\Debug\net6.0\refint\IKFergusonGuessIT.dll
+C:\Temp\CodeStacklvl1\Week1\MiniChallengeRedux2\IKFergusonGuessIT\obj\Debug\net6.0\IKFergusonGuessIT.pdb
+C:\Temp\CodeStacklvl1\Week1\MiniChallengeRedux2\IKFergusonGuessIT\obj\Debug\net6.0\IKFergusonGuessIT.genruntimeconfig.cache
+C:\Temp\CodeStacklvl1\Week1\MiniChallengeRedux2\IKFergusonGuessIT\obj\Debug\net6.0\ref\IKFergusonGuessIT.dll
