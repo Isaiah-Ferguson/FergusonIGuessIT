@@ -1,6 +1,7 @@
 ﻿//ISAIAH KEITH FERGUSON
 //10/17/2022
 //Guess it!!
+//have the user guess a number depending on the difficulty, it might between 1 and 10 or 1 and 100.
 // Peer Reviewed by:
 string custom = "";
 string guess = "";
@@ -63,7 +64,7 @@ while (difficulty != "easy" && difficulty != "medium" && difficulty != "hard" &&
 if (difficulty == "custom")
 {
     Random rndnum = new Random();
-    Console.WriteLine("Please enter a number:");
+    Console.WriteLine("Please enter a number greater than 0:");
     string num1 = (Console.ReadLine());
     bool  trueG = Int32.TryParse(num1, out trueInt1);
 
