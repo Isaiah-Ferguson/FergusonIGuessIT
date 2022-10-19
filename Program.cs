@@ -1,8 +1,10 @@
 ﻿//ISAIAH KEITH FERGUSON
-//10/17/2022
+//10/18/2022
 //Guess it!!
-//have the user guess a number depending on the difficulty, it might between 1 and 10 or 1 and 100.
-// Peer Reviewed by:
+//have the user guess a number depending on the difficulty, it might between 1 and 10, 1 and 50, 1 and 100 or custom.
+//Peer Reviewed by:
+
+Console.Clear();
 string custom = "";
 string guess = "";
 int num = 0;
@@ -42,7 +44,7 @@ while (difficulty != "easy" && difficulty != "medium" && difficulty != "hard" &&
         easyGuesses ++;
         if (trueGuess == 0)
         {
-            Console.WriteLine("ERROR that is not an integer.");
+            Console.WriteLine("ERROR that is not an option.");
             break;
         }
     Console.WriteLine(trueGuess);
@@ -84,7 +86,7 @@ if (difficulty == "custom")
     {
         if (trueG1 == false ||  trueG == false)
         {
-            Console.WriteLine("Error that is not an integer.");
+            Console.WriteLine("Error that is not an option.");
             break;
         }
         Console.WriteLine($"guess the number between {trueInt1} and {trueInt2}!");
@@ -93,7 +95,7 @@ if (difficulty == "custom")
         
         if (trueG == false)
         {
-            Console.WriteLine("ERROR that is not an integer.");
+            Console.WriteLine("ERROR that is not an option.");
             break;
         }
          customguess ++;
